@@ -10,8 +10,8 @@ const CoinTableRow = ({ coin }) => {
           />
           <span>{coin.name}</span>
         </td>
-        <td>{coin.current_price}</td>
-        <td
+       
+         <td
           className={
             coin.price_change_percentage_24h > 0 ? "text-green" : "text-red"
           }
