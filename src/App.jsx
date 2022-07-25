@@ -14,12 +14,19 @@ const App = () => {
   };
 
   useEffect(() => {
-    getInfo();
+    const newUpdateResponse = setInterval(() => {
+     getInfo();
+    }, 1000);
+    return () => clearInterval(newUpdateResponse);
   }, []);
 
 
   return (
-    <main>
+    <>
+    <small>
+      app desarrollada por @bigbitdev
+    </small>
+    <main className="container-custom">
       <form className="container">
         <input type="search" id="searchinput" placeholder="buscar moneda" onChange={e=> setSearch(e.target.value)}/>
         <button type="submit">Buscar</button>
@@ -28,6 +35,8 @@ const App = () => {
         <CoinsDataTable datacoins={datacoins} search={search}/>
       </div>
     </main>
+    
+    </>
   );
 };
 
