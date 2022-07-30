@@ -1,9 +1,17 @@
-.text-red{
-  color: red;
+body,html{
+  padding: 0;
+  margin: 0;
+  font-family: 'Chakra Petch', sans-serif;
+  background-color: #181818;
+  color: #fff;
 }
-.text-green{
-  color: green;
+*{
+  box-sizing: border-box;
 }
-.container-custom{
-  margin-top: 5rem;
+
+.textRed{
+  color: red !important;
+}
+.textGreen{
+  color: green !important;
 }

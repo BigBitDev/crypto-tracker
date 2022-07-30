@@ -23,9 +23,6 @@ const App = () => {
 
   return (
     <>
-    <small>
-      app desarrollada por @bigbitdev
-    </small>
     <main className="container-custom">
       <form className="container">
         <input type="search" id="searchinput" placeholder="buscar moneda" onChange={e=> setSearch(e.target.value)}/>

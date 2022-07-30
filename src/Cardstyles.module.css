@@ -1,0 +1,11 @@
+.cardBody{
+    background-color: blue;
+    
+}
+
+
+.cardLogo{
+    width: 100%;
+    height: auto;
+    max-width: 50px;
+}
