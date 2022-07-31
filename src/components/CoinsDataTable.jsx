@@ -4,17 +4,15 @@ const CoinsDataTable = ({ datacoins, search }) => {
   const filteredcoins = datacoins.filter((coin) =>
     coin.name.toLowerCase().includes(search.toLowerCase())
   );
-  const arrangedArr = (arr) => arr.slice(0, 10);
+  const arrangedArr = (arr) => arr.slice(0, 12);
   return (
-    <>
-      <div>
-        {arrangedArr(
-          filteredcoins.map((coin, index) => (
-            <Cardcoin coin={coin} key={index} index={index} />
-          ))
-        )}
-      </div>
-    </>
+    <div className="tableDim">
+      {arrangedArr(
+        filteredcoins.map((coin, index) => (
+          <Cardcoin coin={coin} key={index} index={index} />
+        ))
+      )}
+    </div>
   );
 };
 

@@ -1,11 +1,1 @@
-.cardBody{
-    background-color: blue;
-    
-}
-
-
-.cardLogo{
-    width: 100%;
-    height: auto;
-    max-width: 50px;
-}
+.cardBody {display: flex;max-width: 400px;width: 500px;height: 300px;margin: auto;align-items: center;background: rgba(255, 255, 255, 0.2);border-radius: 16px;box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);backdrop-filter: blur(5px);-webkit-backdrop-filter: blur(5px);border: 1px solid rgba(255, 255, 255, 0.3);justify-content: center;margin-bottom: 1.25rem;margin-top: 1.25rem;}.coinInfo{list-style: none;width: 50%;}.cardLogo {width: 50%;}@media only screen and (max-width: 600px) {.cardLogo{width: 45%;height: 45%;}.cardBody{width: 350px;height: 250px;}}
