@@ -6,7 +6,7 @@ Este es un proyecto cuyo objetivo es tener a mano informacion acerca del valor a
 
 ## Demo
 
-[link de la pagina]("https://bitbitcrypto.netlify.app/")
+[demo]("https://bitbitcrypto.netlify.app/")
 
 
 ## Tech Stack
